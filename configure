@@ -1,1 +1,2 @@
-R CMD INSTALL ./r
+R CMD INSTALL --staged-install --preclean r
+exit 1
